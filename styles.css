@@ -1,3 +1,19 @@
 body {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container {
+  height: 72vw;
+  width: 72vw;
+  margin: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: black; */
+}
+.box {
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0;
 }
